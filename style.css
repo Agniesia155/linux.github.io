@@ -1,0 +1,130 @@
+body{
+    background-color: gray;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+#conteiner{
+    width: 1000px; /*szerokość*/
+    /*środkowanie kontenera*/
+    margin-left: auto;
+    margin-right: auto;  
+    
+}
+ 
+#logo{
+    color: white; /*kolor czcionki*/
+    margin-top: 20px; /*margines góra*/
+    font-size: 44px; 
+    letter-spacing: 3px; /*odstępy między literami*/
+    font-weight: 700; /*pogrubienie czcionki*/
+}
+
+#menu{
+    background-color: #303036;
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 10px; /*wypełnienie diva w środku*/
+    
+}
+
+#topbar{
+    background-color: 	#937c6c;
+    color: white;
+    padding: 10px;
+    margin-top: 20px; /*margines góra*/
+    margin-bottom: 25px; /*margines dół*/
+    height: 170px; /*wysokość diva*/
+    
+}
+
+#topbarL{
+    float:left;
+    padding: 20px;
+    width: 138px;
+    text-align: center;
+    border-right: 2px dotted #ffff1a;
+}
+
+#topbarL img{
+    height: 130px;
+}
+
+#topbarR{
+    float: left;
+    padding: 20px;
+    width: 760px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#sidebar{
+    float:left;
+    width: 148px;
+    min-height: 620px;
+    padding: 20px;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 18px;
+    border-right: 2px dotted #ebebe0;
+    
+}
+
+#content{
+    padding: 40px;
+    width: 920px;
+    background-color:  #ccccb3;
+    min-height: 580px;
+    text-align: center;
+    
+}
+
+.option{
+    float: left; /*pozycjonowanie el obok siebie*/
+    min-width: 50px; /*szer min*/
+    height: 25px;
+    font-size: 18px;
+    padding: 10px;
+    border-right: 2px dotted  #ffff1a; /*linia po prawej stronie menu (grubośc, styl: korpkowana dotted, ciągła solid) kolor lini*/
+    opacity: 0.8; /*przeźroczystość 20%*/
+    
+}
+
+.option:hover{ /*efekt po najechaniu kursorem*/
+    background-color: #ff8533;
+    cursor: pointer; /* zmiana wyglądu kursora*/
+}
+
+.optionL{
+    font-size: 18px;
+    height: 25px;
+    padding: 10px;
+    border-bottom: 2px dotted #444444; /*dolna linia*/
+}
+
+.optionL:hover{
+    background-color: #f36742;
+    color: white;
+    cursor: pointer;
+}
+
+#footer{
+    clear: both;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.bigtitle{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.dotline{
+    border-bottom: 2px dotted black;
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
